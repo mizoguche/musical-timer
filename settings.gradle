@@ -1,0 +1,6 @@
+rootProject.name = 'musical-timer'
+include 'common'
+include 'ios'
+
+includeBuild '../../JetBrains/kotlin-native/shared'
+includeBuild '../../JetBrains/kotlin-native/tools/kotlin-native-gradle-plugin'
