@@ -14,7 +14,7 @@ apply plugin: 'konan'
 konan.targets = ['iphone', 'iphone_sim']
 
 konanArtifacts {
-    framework('KotlinMusicalTimer') {
+    framework('MusicalTimerCore') {
         enableMultiplatform true
     }
 }
